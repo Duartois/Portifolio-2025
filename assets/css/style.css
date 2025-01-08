@@ -458,6 +458,7 @@ h3{
     gap: 10px;
     color: var(--color-white);
     margin-block: 5px;
+    font-size: 10px;
 }
 .contact-info p>i{
     font-size: 18px;
@@ -713,16 +714,31 @@ footer{
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
+    .social_icons {
+        justify-content: center;
+    }
     .featured-name{
         font-size: 40px;
     }
-    .project-box{
+    .project-box {
         width: 100%;
+    }
+    .project-container a {
+        width: 80%;
     }
     .form-inputs{
         flex-direction: column;
     }
+    .form-button {
+        display:flex;
+        justify-content: center;
+    }
     .input-field{
         width: 100%;
     }
+
+    .contact-info p {
+        font-size: 10px;
+    }
+
 }
