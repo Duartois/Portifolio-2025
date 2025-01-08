@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Matheus Duarte</title>
+   <!-- ----- GMAIL ----- -->
+   <script type="text/javascript" 
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init({
+       publicKey: "CWiz0RQwmKY0F6vkg",
+     });
+  })();
+</script>
+
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Duarte</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projetos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contato</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" onclick="openModal()">Download CV <i class="uil uil-import"></i></button>
+
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Matheus Duarte</span>
+            </div>
+            <div class="featured-name">
+                <p>Sou <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Desenvolvedor front-end experiente com paixão por criar soluções criativas e impactantes para o seu negócio.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Entre em Contato</button>
+                <button class="btn" onclick="openModal()">Download CV <i class="uil uil-import"></i></button>
+
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/itsmatheusduarte/" target="_blank" rel="noopener noreferrer">
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                </a>
+                <a href="https://www.linkedin.com/in/matheusduartegoncalves/" target="_blank" rel="noopener noreferrer">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                </a>
+                <a href="https://dribbble.com/seu-perfil" target="_blank" rel="noopener noreferrer">
+                    <div class="icon"><i class="uil uil-dribbble"></i></div>
+                </a>
+                <a href="https://github.com/Duartois" target="_blank" rel="noopener noreferrer">
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.JPG" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Role para Baixo</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Introdução</h3>
+                    <p>Sou bem versado em HTML, CSS e JavaScript e outras tecnologias de ponta, como
+                        frameworks e bibliotecas, o que me permite implementar recursos interativos
+                        e criativos para o projeto relacionado.
+                        Além disso, tenho experiência em trabalhar com sistemas de gerenciamento de conteúdo (CMS) de platafornas
+                        no-code, como shopify, wordpress, nuvemshop, wix, dentre outras.
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn" onclick="openModal()">Download CV <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Firebase</span>
+                        <span>AWSS3</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projetos</h1>
+        </div>
+        <div class="project-container">
+            <a href="https://github.com/Duartois?tab=repositories" target="_blank" rel="noopener noreferrer">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completos</h3>
+                    <label>5+ Projetos Finalizados</label>
+                </div>
+            </a>
+            <a>
+                <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Clientes</h3>
+                    <label>4+ clientes contentes</label>
+                </div>
+            </a>
+            <a>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experiência</h3>
+                    <label>1+ Ano de experiência</label>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Entre em contato</h1>
+          <span>Tem um Projeto em mente? Me contate!</span>
+        </div>
+        <div class="row">
+           <div class="col">
+              <div class="contact-info">
+                  <h2>Contato <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope"></i> Email: matheusdugoncalves@gmail.com</p>
+                  <p><i class="uil uil-phone"></i> Whatsapp: +11 95806 0256</p> 
+              </div>
+           </div>
+           <div class="col">
+              <div class="form-control">
+                  <div class="form-inputs">
+                      <input type="text" class="input-field" placeholder="Nome" id="name">
+                      <input type="text" class="input-field" placeholder="Email" id="email">
+                  </div>
+                  <div class="form-imputs">
+                    <input type="text" class="input-field" placeholder="Assunto" id="subject">
+                  </div>
+                  <div class="text-area">
+                      <textarea placeholder="Mensagem" id="message"></textarea>
+                  </div>
+                  <div class="form-button">
+                      <button class="btn" onclick="sendMail()">Send <i class="uil uil-message"></i></button>
+                  </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Matheus Duarte .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Sobre</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projetos</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Matheus Duarte</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+    <!-- Modal para Seleção de Idioma -->
+<div id="languageModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2>Selecione o Idioma</h2>
+        <a href="/assets/images/CV (PT-BR).pdf" target="_blank" rel="noopener noreferrer">
+        <button class="btn"><i class="uil uil-file-download"></i> Português</button>
+        </a>
+        <a href="/assets/images/CV (ingles).pdf" target="_blank" rel="noopener noreferrer">
+        <button class="btn"><i class="uil uil-file-download"></i> Inglês</button>
+        </a>
+    </div>
+</div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+    
+</body>
+</html>
